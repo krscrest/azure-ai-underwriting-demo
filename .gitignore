@@ -1,0 +1,31 @@
+# Dependencies
+backend/__pycache__/
+backend/*.pyc
+frontend/node_modules/
+frontend/build/
+
+# Static build (regenerated from frontend)
+backend/static/
+
+# Environment files
+.env
+*.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Deployment artifacts
+deploy.zip
+applog*.zip
+applogs*/
+
+# Original prompt (contains hardcoded credentials)
+insurance_underwriting_demo_prompt.md
